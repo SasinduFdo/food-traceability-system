@@ -1,0 +1,227 @@
+[
+    {
+        "identifier": "RICE300",
+        "farm_info": {
+            "farming_company": "Green Pastures Farms",
+            "location": "Mekong Delta, Vietnam",
+            "size": "50 hectares",
+            "crop": "Jasmine rice",
+            "variety": "KDML105",
+            "harvest_date": "2022-01-05",
+            "harvest_quantity": "100 tons"
+        },
+        "processing_info": {
+            "milling_date": "2022-01-10",
+            "milling_company": "ABC Rice Mill",
+            "milling_method": "Polished",
+            "processing_quantity": "100 tons"
+        },
+        "storage_info": {
+            "storage_date": "2022-01-12",
+            "storage_company": "XYZ Warehouse",
+            "storage_temperature": "20°C",
+            "storage_duration": "3 months",
+            "storage_quantity": "100 tons"
+        },
+        "logistics_info": {
+            "transportation_date": "2022-04-13",
+            "transportation_company": "DEF Shipping",
+            "transportation_method": "Container ship",
+            "transportation_temperature": "25°C",
+            "transportation_duration": "30 days",
+            "transportation_quantity": "100 tons",
+            "destination": "Rotterdam, Netherlands"
+        },
+        "certification_and_inspection_info": {
+            "organic_certification": false,
+            "fair_trade_certification": true,
+            "third_party_inspection": {
+                "type": "SGS",
+                "result": "Passed"
+            }
+        },
+        "safety_message" : {
+            "message" : ""
+        }
+    },
+    {
+        "identifier": "RICE301",
+        "farm_info": {
+            "farming_company": "Harvest Moon Farms",
+            "location": "Sacatepéquez, Guatemala",
+            "size": "20 hectares",
+            "crop": "Basmati rice",
+            "variety": "Super Kernel",
+            "harvest_date": "2022-02-10",
+            "harvest_quantity": "50 tons"
+        },
+        "processing_info": {
+            "milling_date": "2022-02-15",
+            "milling_company": "DEF Rice Mill",
+            "milling_method": "Parboiled",
+            "processing_quantity": "50 tons"
+        },
+        "storage_info": {
+            "storage_date": "2022-02-20",
+            "storage_company": "PQR Warehouse",
+            "storage_temperature": "15°C",
+            "storage_duration": "6 months",
+            "storage_quantity": "50 tons"
+        },
+        "logistics_info": {
+            "transportation_date": "2022-09-01",
+            "transportation_company": "GHI Shipping",
+            "transportation_method": "Bulk carrier",
+            "transportation_temperature": "20°C",
+            "transportation_duration": "45 days",
+            "transportation_quantity": "50 tons",
+            "destination": "Dubai, UAE"
+        },
+        "certification_and_inspection_info": {
+            "organic_certification": true,
+            "fair_trade_certification": false,
+            "third_party_inspection": {
+                "type": "Bureau Veritas",
+                "result": "Passed"
+            }
+        },
+        "safety_message" : {
+            "message" : ""
+        }
+    },
+    {
+        "identifier": "RICE202",
+        "farm_info": {
+            "farming_company": "Sunnybrook Farms",
+            "location": "Nakhon Sawan, Thailand",
+            "size": "40 hectares",
+            "crop": "Brown rice",
+            "variety": "Hom Mali",
+            "harvest_date": "2022-03-01",
+            "harvest_quantity": "80 tons"
+        },
+        "processing_info": {
+            "milling_date": "2022-03-05",
+            "milling_company": "JKL Rice Mill",
+            "milling_method": "Unpolished",
+            "processing_quantity": "80 tons"
+        },
+        "storage_info": {
+            "storage_date": "2022-03-10",
+            "storage_company": "STU Warehouse",
+            "storage_temperature": "18°C",
+            "storage_duration": "4 months",
+            "storage_quantity": "80 tons"
+        },
+        "logistics_info": {
+            "transportation_date": "2022-08-01",
+            "transportation_company": "MNO Shipping",
+            "transportation_method": "Bulk carrier",
+            "transportation_temperature": "25°C",
+            "transportation_duration": "30 days",
+            "transportation_quantity": "80 tons",
+            "destination": "Tokyo, Japan"
+        },
+        "certification_and_inspection_info": {
+            "organic_certification": false,
+            "fair_trade_certification": true,
+            "third_party_inspection": {
+                "type": "SGS",
+                "result": "Passed"
+            }
+        },
+        "safety_message" : {
+            "message" : ""
+        }
+    },
+    {
+        "identifier": "RICE303",
+        "farm_info": {
+            "farming_company": "Golden Acres Farm",
+            "location": "Rio Grande do Sul, Brazil",
+            "size": "60 hectares",
+            "crop": "Long-grain rice",
+            "variety": "Carolina Gold",
+            "harvest_date": "2021-11-15",
+            "harvest_quantity": "120 tons"
+        },
+        "processing_info": {
+            "milling_date": "2021-11-20",
+            "milling_company": "GHI Rice Mill",
+            "milling_method": "Polished",
+            "processing_quantity": "120 tons"
+        },
+        "storage_info": {
+            "storage_date": "2021-11-25",
+            "storage_company": "XYZ Warehouse",
+            "storage_temperature": "22°C",
+            "storage_duration": "5 months",
+            "storage_quantity": "120 tons"
+        },
+        "logistics_info": {
+            "transportation_date": "2022-05-01",
+            "transportation_company": "ABC Shipping",
+            "transportation_method": "Container ship",
+            "transportation_temperature": "20°C",
+            "transportation_duration": "35 days",
+            "transportation_quantity": "120 tons",
+            "destination": "Rotterdam, Netherlands"
+        },
+        "certification_and_inspection_info": {
+            "organic_certification": true,
+            "fair_trade_certification": false,
+            "third_party_inspection": {
+                "type": "Bureau Veritas",
+                "result": "Passed"
+            }
+        },
+        "safety_message" : {
+            "message" : "Allergy Alert: A batch of rice from a specific processing facility has been found to contain traces of peanuts, which can cause severe allergic reactions in individuals who are allergic to peanuts. The affected batch has been recalled, and customers have been advised to return the product to the place of purchase for a refund."
+        }
+    },
+    {
+        "identifier": "RICE304",
+        "farm_info": {
+            "farming_company": "Blue Sky Farms",
+            "location": "California, USA",
+            "size": "75 acres",
+            "crop": "Jasmine rice",
+            "variety": "Thai Hom Mali",
+            "harvest_date": "2022-08-01",
+            "harvest_quantity": "150,000 pounds"
+        },
+        "processing_info": {
+            "milling_date": "2022-08-10",
+            "milling_company": "LMN Rice Milling",
+            "milling_method": "Semi-polished",
+            "processing_quantity": "150,000 pounds"
+        },
+        "storage_info": {
+            "storage_date": "2022-08-15",
+            "storage_company": "UVW Warehousing",
+            "storage_temperature": "20°C",
+            "storage_duration": "6 months",
+            "storage_quantity": "150,000 pounds"
+        },
+        "logistics_info": {
+            "transportation_date": "2023-03-01",
+            "transportation_company": "PQR Logistics",
+            "transportation_method": "Airfreight",
+            "transportation_temperature": "15°C",
+            "transportation_duration": "3 days",
+            "transportation_quantity": "50,000 pounds",
+            "destination": "London, UK"
+        },
+        "certification_and_inspection_info": {
+            "organic_certification": true,
+            "fair_trade_certification": true,
+            "third_party_inspection": {
+                "type": "Intertek",
+                "result": "Passed"
+            }
+        },
+        "safety_message" : {
+            "message" : "Contamination: Rice from a specific farm has been found to be contaminated with heavy metals, including arsenic, which can cause serious health issues if consumed over a long period of time. The affected batch has been recalled and customers have been advised to dispose of the product immediately."
+        }
+    }
+]

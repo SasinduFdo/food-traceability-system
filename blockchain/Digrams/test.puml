@@ -1,0 +1,61 @@
+@startuml
+actor consumer as user
+participant frontend
+participant backend
+participant blockchain
+database blockchainDB
+
+
+user -> frontend : entering the product ID
+frontend -> backend : handleProductInfo()
+backend -> blockchain : getProductById()
+blockchain -> blockchainDB : validating
+blockchainDB --> blockchain : product information
+alt exists == true 
+blockchain --> backend : product information
+else exists == false 
+blockchain --> backend : error message
+end
+backend --> frontend : response
+frontend -->user: display response
+@enduml
+
+
+
+========
+@startuml
+actor admin as user
+participant frontend
+participant backend
+participant blockchain
+database blockchainDB
+
+
+user -> frontend : entering the product ID
+frontend -> backend : handleProductInfo()
+backend -> blockchain : getProductById()
+blockchain -> blockchainDB : validating
+blockchainDB --> blockchain : product information
+alt exists == true 
+blockchain --> backend : product information
+else exists == false 
+blockchain --> backend : error message
+end
+backend --> frontend : response
+frontend -->user: display response
+
+alt exists == true 
+user --> frontend : enter the safety message
+end
+frontend -> backend : handleSafetyMessage()
+backend -> blockchain : updateSafetyMessage()
+blockchain -> blockchainDB : updateProduct()
+blockchainDB -> blockchain : response
+blockchain -> backend : response
+backend --> frontend : response
+frontend --> user : response
+
+
+
+
+@enduml
