@@ -229,7 +229,7 @@ const Issues = () => {
                         optional={
                           index === 2 ? (
                             <Typography variant="caption">
-                              Last Phase
+                     
                             </Typography>
                           ) : null
                         }
