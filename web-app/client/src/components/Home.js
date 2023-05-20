@@ -114,7 +114,7 @@ const Home = () => {
                         optional={
                           index === 2 ? (
                             <Typography variant="caption">
-                              Last Phase
+                             
                             </Typography>
                           ) : null
                         }
