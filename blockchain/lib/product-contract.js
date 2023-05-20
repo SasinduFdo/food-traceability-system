@@ -19,7 +19,7 @@ class ProductContract extends Contract {
             for (let i = 0; i < list.length; i++) {
                 let product = list[i];
                 // Get the existing product with the given identifier, if it exists
-                let productTest = await ctx.stub.getState(id);
+                let productTest = await ctx.stub.getState(product.id);
                 if (!productTest || productTest.length === 0) {
                     // Save the new product to the blockchain
                     await ctx.stub.putState(
